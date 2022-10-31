@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML - Principais Tags</title>
+  </head>
+  <body>
+    <h1 id="inicio">HTML - Principais Tags</h1>
+    <hr/>
+    <h2><u>Índice:</u></h2>
+    <ul>
+      <li><a href="#h">&lt;h&gt;</a></li>
+      <li><a href="#p">&lt;p&gt;</a></li>
+      <li><a href="#hr">&lt;hr&gt;</a></li>
+      <li><a href="#del">&lt;del&gt;</a></li>
+      <li><a href="#mark">&lt;mark&gt;</a></li>
+      <li><a href="#links">Referências</a></li>
+    </ul>
+    <hr>
+    
+    <h2 id="h">&lt;h&gt;</h2>
+    <small><a href=#inicio>(Voltar)</a></small>
+    <p>Elementos de cabeçalho são implementados em seis níveis, &lt;h1&gt; é o mais importante e &lt;h6&gt; é o de menor importância. Um elemento de cabeçalho descreve brevemente o tópico da seção em que ele está. As informações de cabeçalho podem ser usadas por agentes de usuário, por exemplo, para construir uma tabela de conteúdos para um documento automaticamente.</p>
+    <ol>
+      <li>&lt;h1&gt;</li>
+      <li>&lt;h2&gt;</li>
+      <li>&lt;h3&gt;</li>
+      <li>&lt;h4&gt;</li>
+      <li>&lt;h5&gt;</li>
+      <li>&lt;h6&gt;</li>
+    </ol>
+    <h3><sub><u>Exemplo:</u></sub></h3>
+    <code>&lt;h1&gt;Cabeçalho nível 1&lt;/h1&gt;<br>&lt;h2&gt;Cabeçalho nível 2&lt;/h2&gt;<br>&lt;h3&gt;Cabeçalho nível 3&lt;/h3&gt;<br>&lt;h4&gt;Cabeçalho nível 4&lt;/h4&gt;<br>&lt;h5&gt;Cabeçalho nível 5&lt;/h5&gt;<br>&lt;h6&gt;Cabeçalho nível 6&lt;/h6&gt;
+    </code>
+    <h3><sub><u>Resultado:</u></sub></h3>
+    <code><h1>Cabeçalho nível 1</h1>
+    <h2>Cabeçalho nível 2</h2>
+    <h3>Cabeçalho nível 3</h3>
+    <h4>Cabeçalho nível 4</h4>
+    <h5>Cabeçalho nível 5</h5>
+    <h6>Cabeçalho nível 6</h6>
+    </code>
+    
+    <h2 id="p">&lt;p&gt;</h2>
+    <small><a href=#inicio>(Voltar)</a></small>
+    <p>O elemento <strong>HTML</strong> &lt;p&gt; representa um parágrafo. Em mídias visuais, parágrafos são representados como blocos indentados de texto com a primeira letra avançada e separados por linhas em branco. Já em <strong>HTML</strong>, parágrafos são usados para agrupar conteúdos relacionados de qualquer tipo, como imagens e campos de um formulário.</p>
+    <p><blockquote><i>Parágrafos são Elementos block-level, e fecharão automaticamente caso outro Elemento block-level inicie antes da tag de fechamento.</i></blockquote></p>
+    <h3><sub><u>Exemplo:</u></sub></h3>
+    <code>
+      &lt;p&gt;Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.
+  Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.&lt;/p&gt; <br>
+&lt;p&gt;Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto.
+   Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto.&lt;/p&gt;
+    </code>
+    <h3><sub><u>Resultado:</u></sub></h3>
+    <code>Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.<br><br> Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto.</code>
+
+    <h2 id="hr">&lt;hr&gt;</h2>
+    <small><a href=#inicio>(Voltar)</a></small>
+    <p>O elemento HTML &lt;hr&gt; representa uma quebra temática entre elementos de nível de parágrafo (por exemplo , uma mudança da cena de uma história, ou uma mudança de tema com uma seção). Nas versões anteriores do <strong>HTML</strong>, representava uma linha horizontal. Pode continuar sendo exibida como uma linha horizontal nos navegadores, mas agora está definida em termos semânticos, em vez de termos de apresentação.</p>
+    <h3><sub><u>Exemplo:</u></sub></h3>
+    <code>&lt;p&gt;Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.
+    Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.&lt;/p&gt;<br>&lt;hr&gt;          <br>&lt;p&gt;Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto.
+    Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto.&lt;/p&gt;
+    </code>
+    <h3><sub><u>Resultado:</u></sub></h3>
+    <code><p>Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.
+    Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.</p>
+    <hr>
+    <p>Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto.
+    Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto.</p>
+</code>
+
+    <h2 id="del">&lt;del&gt;</h2>
+    <small><a href=#inicio>(Voltar)</a></small>
+    <p>O elemento <strong>HTML</strong> &lt;del&gt; (ou Elemento HTML de Texto Excluído) representa uma parte do texto que foi excluída de um documento. Este elemento é (não necessariamente) renderizado pelos navegadores com uma linha entre o texto.</p>
+    <h3><sub><u>Exemplo:</u></sub></h3>
+    <code>&lt;p&gt;&lt;del&gt;Esse texto foi deletado.&lt;/del&gt;&lt;/p&gt;</code>
+    <h3><sub><u>Resultado:</u></sub></h3>
+    <code><p><del>Esse texto foi deletado.</del></p></code>
+    
+    <h2 id="mark">&lt;mark&gt;</h2>
+    <small><a href=#inicio>(Voltar)</a></small>
+    <p>O Elemento <strong>HMTL</strong> &lt;mark&gt; representa um trecho de destaque em um texto, por exemplo, uma sequência de texto marcado como referência, devido à sua relevância em um contexto particular. Por Exemplo, pode ser utilizado em uma página que mostra os resultados de uma busca onde todas as instâncias da palavra pesquisadas receberam destaque.</p>
+    <p><blockquote><i>No texto principal, o trecho destacado normalmente marca um conteúdo que pode ser de especial relevância para usuário corrente, como resultado de pesquisa.</i></blockquote></p>
+    <p>Não confunda o elemento &lt;mark&gt; com o elemento &lt;strong&gt; . O elemento &lt;strong&gt; é usado para denotar trechos de importância especial, quando o elemento &lt;mark&gt; é utilizado para denotar trechos de relevância especial.</p>
+    <h3><sub><u>Exemplo:</u></sub></h3>
+    <code>&lt;p&gt;O elemento mark é usado para &lt;mark&gt;destacar&lt;/mark&gt; partes do texto.&lt;/p&gt;
+</code>
+    <h3><sub><u>Resultado:</u></sub></h3>
+    <code><p>O elemento mark é usado para <mark>destacar</mark> partes do texto.</p></code>
+    <br><hr><br>
+
+    <h2 id="links">Referências:</h2>
+    <small><a href=#inicio>(Voltar)</a></small>
+    <ol>
+      <li><a href="https://www.dio.me/">dio.me</a></li>
+      <li><a href="https://developer.mozilla.org/pt-BR/">Mozilla.org</a></li>
+      <li><a href="https://www.w3schools.com/">W3 School</a></li>
+    </ol>
+    <br>
+  </body>
+</html>
